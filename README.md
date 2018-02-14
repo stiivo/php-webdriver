@@ -6,6 +6,9 @@
 [![Total Downloads](https://img.shields.io/packagist/dt/facebook/webdriver.svg?style=flat-square)](https://packagist.org/packages/facebook/webdriver)
 [![License](https://img.shields.io/packagist/l/facebook/webdriver.svg?style=flat-square)](https://packagist.org/packages/facebook/webdriver)
 
+## Enabling Downlodas in Chrome Headless
+    $driver->execute('send_command', ['cmd' => 'Page.setDownloadBehavior', 'params' => ['behavior' => 'allow', 'downloadPath' => '/tmp/foobar/']]);
+
 ## Description
 Php-webdriver library is PHP language binding for Selenium WebDriver, which allows you to control web browsers from PHP.
 
