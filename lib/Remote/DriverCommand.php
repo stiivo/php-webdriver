@@ -145,6 +145,8 @@ class DriverCommand
     // Mobile API
     const GET_NETWORK_CONNECTION = 'getNetworkConnection';
     const SET_NETWORK_CONNECTION = 'setNetworkConnection';
+    // Send Command
+    const SEND_COMMAND = 'send_command';
 
     private function __construct()
     {

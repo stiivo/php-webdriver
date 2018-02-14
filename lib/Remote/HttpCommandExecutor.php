@@ -131,6 +131,7 @@ class HttpCommandExecutor implements WebDriverCommandExecutor
         DriverCommand::TOUCH_MOVE => ['method' => 'POST', 'url' => '/session/:sessionId/touch/move'],
         DriverCommand::TOUCH_SCROLL => ['method' => 'POST', 'url' => '/session/:sessionId/touch/scroll'],
         DriverCommand::TOUCH_UP => ['method' => 'POST', 'url' => '/session/:sessionId/touch/up'],
+        DriverCommand::SEND_COMMAND => ['method' => 'POST', 'url' => '/session/:sessionId/chromium/send_command'],
     ];
     /**
      * @var string
